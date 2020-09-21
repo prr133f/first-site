@@ -1,52 +1,25 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Портфолио Junior верстальщика</title>
-  </head>
-
-  <body>
-    <header class="page-header">
-   	  <div class = "container">
-      	Контакты в шапке
-      </div>
-    </header>
-
-    <section class="hero-image">
-    	<div class="container">
-      		<h1 class="heading">Опознанный Енот</h1>
-      		<p>Junior верстальщик</p>
-  		</div>
-    </section>
-
-    <section class="intro">
-        <div class="container">
-      		<h2 class="subheading">Давайте познакомимся</h2>
-      		<h3>Пара слов о себе</h3>
-      		<p>Текст с парой слов о себе.</p>
-      		<h3>Чем могу быть полезен</h3>
-      		<p>Текст о том, чем могу быть полезен.</p>
-        </div>
-    </section>
-
-    <section class="portfolio">
-    	<div class="container">
-      		<h2 class="subheading">Мои работы</h2>
-
-      		<h3>Сайт инструктора Кекса</h3>
-      		<p>Небольшой лендинг о школе для начинающих.</p>
-
-      		<h3>Блог начинающего верстальщика</h3>
-      		<p>Статический блог про обучение HTML и CSS.</p>
-      	</div>
-    </section>
-
-    <footer class="page-footer">
-    	<div class="container">
-      		Контакты в подвале
-      	</div>
-    </footer>
-  </body>
-</html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<script type="text/javascript" src="jQuery.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<title>Изучаю JavaScript</title>
+</head>
+<body>
+	<noscript>Please turn on your JavaScript!</noscript>
+	<form action="" method="post" name="test" id="form">
+		<label for="name">Имя: </label>
+		<input type="text" name="name" placeholder="Имя" id="name"></br></br>
+		<label for="password">Пароль: </label>
+		<input type="password" name="password" placeholder="Пароль" id="password"></br></br>
+		<label for="RePassword">Повторите пароль: </label>
+		<input type="password" name="RePassword" placeholder="Введите пароль" id="RePassword"></br></br>
+		<span>Выберите пол: </span>
+		<input type="radio" name="state" id="male" value="Мужской"> <label for="male">Мужской</label>
+		<input type="radio" name="state" id="female" value="Женский"> <label for="female">Женский</label></br></br>
+		<input type="button" onclick="valid(document.getElementById('form'))" name="submit" value="Готово">
+	</form>
+</body>
+</html>  
