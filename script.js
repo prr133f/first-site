@@ -1,7 +1,7 @@
 function valid(form) {
 	let fail = false;
 	let name = form.name.value;
-	let passsword = form.password.value;
+	let password = form.password.value;
 	let RePassword = form.RePassword.value;
 	let state = form.state.value;
 	if (name == "") 
